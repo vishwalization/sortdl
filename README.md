@@ -1,15 +1,16 @@
 # sortdl
 
-**Smart CLI tool that organizes your Downloads folder by year and file type.**
+**Simple & Smart CLI tool that organizes your Downloads folder by file type.**
 
 Built in Go. Works on macOS, Windows & Linux.
 
 ### Features
-- Creates folders like `2026/Images`, `2026/Documents`, `2026/Videos` etc.
-- Safe dry-run mode first
-- Handles duplicate file names
+- Creates clean folders directly in Downloads: `Images`, `Documents`, `Videos`, `Music`, `Archives`, `Others`
+- Safe `--dry-run` mode first (shows what it will do)
+- Handles duplicate file names automatically
 - Beautiful colored output
 - Zero dependencies
+- Super fast
 
 ### One-command install
 
